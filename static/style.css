@@ -1,4 +1,15 @@
 /* This script is linked to the page */
-body{
+:root{
+    margin: 0;
+    box-sizing: border-box;
     text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
 }
