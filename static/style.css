@@ -1,12 +1,17 @@
 /* This script is linked to the page */
-:root{
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-align: center;
 }
 
+/* This class includes page H1 and Navigation menu, should be wrapped in hero image later (font-weight is only temporary) */
+.masthead{
+    font-weight: 600;
+}
+
 nav ul{
-    padding: 0;
     list-style: none;
 }
 
