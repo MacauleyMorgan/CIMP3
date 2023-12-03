@@ -8,7 +8,19 @@
 
 /* This class includes page H1 and Navigation menu, should be wrapped in hero image later (font-weight is only temporary) */
 .masthead{
-    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 20vh;
+    margin-bottom:3vh;
+    box-shadow: 0 0 10px 0;
+}
+
+h1{
+    color: white;
+}
+
+nav{
+    margin-bottom: 2vh;
+    padding-block: 1vh;
 }
 
 nav ul{
