@@ -10,18 +10,23 @@
     <!-- Masthead class wraps navigation and page title in hero image -->
     <div class="masthead">
         <nav>
-            <ul>
+            <button id="nav-toggle-show">Show Menu</button>
+            <ul id="nav-bar">
                 <li><a href="{{ url_for('index') }}">Home</a></li>
                 <li><a href="{{ url_for('about') }}">About</a></li>
                 <li><a href="{{ url_for('contact') }}">Contact</a></li>
             </ul>
+            <button id="nav-toggle-close">Close Menu</button>
         </nav>
     
         {% block title %}
         {% endblock %}
     </div>
 
-
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html> 
