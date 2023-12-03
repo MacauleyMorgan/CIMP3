@@ -18,3 +18,14 @@ nav ul{
 nav ul a{
     text-decoration: none;
 }
+
+@media screen and (min-width: 500px) {
+    .nav-bar{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .nav-bar li{
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+    }
+}
