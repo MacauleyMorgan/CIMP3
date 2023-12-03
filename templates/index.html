@@ -6,4 +6,23 @@
 
 {% block content %}
     <h2>Here is some content as a test for home page</h2>
+    <ul class="recipe-book">
+        <!-- Fill with a for loop of recipes -->
+        <li class="recipe">
+            <!-- Recipe name from database -->
+            <h3 class="recipe-name">Warming Tomato Soup</h3>
+            <div class="recipe-guide">
+                <div class="image-container">
+                    <!-- Pull image cource from database -->
+                    <img src="#" alt="Image of tomato soup" class="recipe-image">
+                </div>
+                <ul class="ingredients">
+                    <!-- For loop of ingredients in each recipe -->
+                    <li>Tomato</li>
+                    <li>Onion</li>
+                    <li>Chilli (Optional)</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
 {% endblock %}
