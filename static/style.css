@@ -14,6 +14,17 @@
     box-shadow: 0 0 10px 0;
 }
 
+.nav-button{
+    padding-inline: 10px;
+    padding-block: 2.5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255, 0.3);
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 0 3px 0;
+}
+
 h1{
     color: white;
 }

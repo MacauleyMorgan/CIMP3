@@ -10,13 +10,13 @@
     <!-- Masthead class wraps navigation and page title in hero image -->
     <div class="masthead">
         <nav>
-            <button id="nav-toggle-show">Show Menu</button>
+            <button class="nav-button" id="nav-toggle-show">Show Menu</button>
             <ul class="nav-bar" id="nav-bar">
                 <li><a href="{{ url_for('index') }}">Home</a></li>
                 <li><a href="{{ url_for('about') }}">About</a></li>
                 <li><a href="{{ url_for('contact') }}">Contact</a></li>
             </ul>
-            <button id="nav-toggle-close">Close Menu</button>
+            <button class="nav-button" id="nav-toggle-close">Close Menu</button>
         </nav>
     
         {% block title %}
