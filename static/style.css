@@ -56,6 +56,22 @@ nav ul a{
     text-decoration: none;
 }
 
+footer{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-block: 2vh;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-text{
+    background-color: rgba(255,255,255,0.9)
+}
+
 @media screen and (min-width: 500px) {
     .nav-bar{
         display: flex;
@@ -65,4 +81,5 @@ nav ul a{
         margin-top: 2vh;
         margin-bottom: 4vh;
     }
+    
 }
