@@ -109,4 +109,10 @@ footer{
         margin-left: 25%;
         padding-block: 1.5vh;
     }
+    .image-container{
+        float: left;
+    }
+    .recipe-contents{
+        float: right;
+    }
 }
