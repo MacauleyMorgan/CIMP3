@@ -104,5 +104,9 @@ footer{
         margin-top: 2vh;
         margin-bottom: 4vh;
     }
-    
+    h1{
+        width: 50%;
+        margin-left: 25%;
+        padding-block: 1.5vh;
+    }
 }
