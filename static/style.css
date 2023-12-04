@@ -34,7 +34,7 @@ nav{
     padding-block: 1vh;
 }
 
-nav ul{
+nav ul, ul{
     list-style: none;
 }
 
@@ -60,6 +60,11 @@ h1{
 
 /* Targets each recipes ingredients list */
 .ingredients{
+    margin-bottom: 5px;
+    list-style: initial;
+}
+
+h5{
     margin-bottom: 5px;
 }
 
@@ -109,10 +114,15 @@ footer{
         margin-left: 25%;
         padding-block: 1.5vh;
     }
+    .recipe-book{
+        width: 70%;
+        margin-inline: 15%;
+    }
     .image-container{
         float: left;
     }
     .recipe-contents{
         float: right;
     }
+    
 }
