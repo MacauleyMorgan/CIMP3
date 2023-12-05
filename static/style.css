@@ -6,6 +6,12 @@
     text-align: center;
 }
 
+.landing-page{
+    background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 /* This class includes page H1 and Navigation menu, should be wrapped in hero image later (font-weight is only temporary) */
 .masthead{
     background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");

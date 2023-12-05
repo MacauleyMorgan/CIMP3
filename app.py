@@ -27,6 +27,11 @@ def admin():
 def account():
     return render_template("account.html")
 
+
+@app.route("/landing")
+def landing():
+    return render_template("landing.html")
+
 if __name__ == "__main__":
     app.run(
         host = os.environ.get("IP", "0.0.0.0"),
