@@ -1,14 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <p>If you have any ideas on how to improve the functionality of the site or would like to speak to a member of our team, please see our details below!</p>
+    <p>If you have any ideas on how to improve the functionality of the site or would like to speak to a member of our team, please enter your details below and we'll be in touch!</p>
     <!-- Enter fake contact details here -->
-    <p>
-        John Doe<br>
-        Mac's Recipes<br>
-        Newcastle Upon Tyne<br>
-        NE1
-    </p>
+    <form action="POST" id="contact-form">
+        <label for="fname">First Name</label>
+        <input name="fname" type="text" placeholder="Please enter first name" required><br>
+        <label for="lname">Last Name</label>
+        <input name="lname" type="text" placeholder="Please enter last name" required><br>
+        <label for="email">Email Address</label>
+        <input name="email" type="email" placeholder="Email address" required><br>
+        <button type="submit">Submit form</button>
+    </form>
     <!-- Connect google maps API and mark a fake location of office base -->
     <p>
         Placement area for google maps API
