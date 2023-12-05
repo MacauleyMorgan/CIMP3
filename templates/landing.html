@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Mac's Cookbook</title>
 </head>
 <body class="landing-page">
-    <h1 class="landing-header">Welcome to Mac's Cookbook</h1>
-    <h2>Please sign in below</h2>
-    <form action="POST">
-        <label for="sign-in-email-address">Email</label>
-        <input type="email" name="sign-in-email-address" required>
-        <label for="password">Password</label>
-        <input type="password" name="password" required>
-    </form>
+    <h1 class="landing-header">Mac's Cookbook</h1>
+    <div class="landing-form">
+        <h2>Please sign in below</h2>
+        <form action="POST">
+            <label for="sign-in-email-address">Email</label><br>
+            <input type="email" name="sign-in-email-address" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" required><br>
+            <button type="submit">Sign In</button>
+
+            <!-- Register page link -->
+            <p>Not a member? <a href="#">Register here</a></p>
+        </form>
+    </div>
 </body>
 </html>
