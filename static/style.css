@@ -107,12 +107,12 @@ footer{
     }
     .nav-bar li{
         margin-top: 2vh;
-        margin-bottom: 4vh;
+        margin-bottom: 2vh;
     }
     h1{
         width: 50%;
         margin-left: 25%;
-        padding-block: 1.5vh;
+        padding-block: 1vh;
     }
     .recipe-book{
         width: 70%;
