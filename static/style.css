@@ -1,4 +1,4 @@
-/* This script is linked to the page */
+/* Styling to reset margins and padding */
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
     margin-block: 5px;
 }
 
-/* This class includes page H1 and Navigation menu, should be wrapped in hero image later (font-weight is only temporary) */
+/* This class includes page H1 and Navigation menu in all pages except landing.html */
 .masthead{
     background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
     background-repeat: no-repeat;
@@ -39,6 +39,7 @@
     min-height: 20vh;
 }
 
+/* Targets buttons to expeand/collapse menu on mobile versions */
 .nav-button{
     width: 100%;
     padding-inline: 10px;
