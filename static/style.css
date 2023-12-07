@@ -6,6 +6,7 @@
     text-align: center;
 }
 
+/* Landing page styles */
 .landing-page{
     background-image: url("images/flatlay-iron-skillet-with-meat-and-other-food.jpg");
     background-repeat: no-repeat;
@@ -15,8 +16,16 @@
 }
 
 .landing-form{
-    margin-top: 2vh;
+    margin-top: 30vh;
     background-color: rgba(255,255,255,0.9);
+}
+
+.landing-form h2{
+    margin-block: 10px;
+}
+
+.landing-page-input{
+    margin-block: 5px;
 }
 
 /* This class includes page H1 and Navigation menu, should be wrapped in hero image later (font-weight is only temporary) */
@@ -131,6 +140,12 @@ form input{
         margin-left: 25%;
         padding-block: 1vh;
     }
+    .landing-form{
+        width: 60%;
+        margin-inline: 20%;
+        box-shadow: 0 0 10px 0;
+        border-radius: 10px;
+        }
     .recipe-book{
         width: 70%;
         margin-inline: 15%;
